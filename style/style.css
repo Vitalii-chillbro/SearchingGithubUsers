@@ -1,0 +1,41 @@
+body {
+   background: rgba(230, 229, 229, 0.8); 
+}
+
+.search-wrapper {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    width: 300px;
+    margin: 10px;
+    padding: 16px 32px;
+    border-radius: 7px;
+    font-size: medium;
+}
+
+#result {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    font-size: 40px;
+    text-decoration: none;
+    color: #1E90FF;
+}
+
+.search-btn {
+    font-size: medium;
+    padding: 16px 32px;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.search-btn:hover {
+    background-color: #555555;
+    color: white;
+}
